@@ -73,20 +73,18 @@
         }
 
         .logo {
-            font-family: "Montserrat", sans-serif;
-            font-weight: 800;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
 
-            /* INCREASED COMPANY NAME SIZE */
-            font-size: 60px;
-
-            letter-spacing: 1px;
-            color: var(--dark);
-            text-decoration: none;
-        }
-
-        .logo span {
-            color: var(--blue);
-        }
+.logo img {
+    height: 65px;
+    width: auto;
+    max-width: 220px;
+    display: block;
+    object-fit: contain;
+}
 
         .nav-links {
             display: flex;
@@ -602,14 +600,17 @@
         }
 
         .footer-logo {
-            font-family: "Montserrat", sans-serif;
-            font-size: 40px;
-            font-weight: 800;
-        }
+    display: flex;
+    align-items: center;
+}
 
-        .footer-logo span {
-            color: #60a5fa;
-        }
+.footer-logo img {
+    height: 55px;
+    width: auto;
+    max-width: 200px;
+    display: block;
+    object-fit: contain;
+}
 
         .footer-text {
             color: #94a3b8;
@@ -771,8 +772,8 @@
         <div class="container nav">
 
             <a href="#" class="logo">
-                YURIX<span>.</span>
-            </a>
+    <img src="yurix-logo.PNG" alt="YURIX LLC">
+</a>
 
             <nav class="nav-links">
 
@@ -1385,7 +1386,7 @@
                 <div>
 
                     <div class="footer-logo">
-                        YURIX<span>.</span>
+                       <img src="yurix-logo.PNG" alt="YURIX LLC">
                     </div>
 
                     <p class="footer-text">
